@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans");
+
+*:focus {
+  outline: none;
+}
+
+body {
+  background: black;
+}
+
+#app {
+  width: 900px;
+  height: 500px;
+  margin: 60px auto;
+  border: 2px solid black;
+  background: linear-gradient(180deg, #000000 19%, #af8050 180%);
+  background-size: cover;
+}
+
+#app::before {
+  content: "";
+  background-image: url(https://s23.postimg.org/f200kitdn/image.jpg);
+  opacity: 0.1;
+  position: absolute;
+  width: 900px;
+  height: 500px;
+}
+
+#clicks {
+  width: 40%;
+  height: 100%;
+  float: left;
+  background: linear-gradient(180deg, #000000 19%, #af8050 180%);
+  background-size: cover;
+}
+
+.cookies {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#counter {
+  font-size: 30px;
+  color: #e8b960;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  margin: 0px 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+#counterps {
+  color: #ffffff;
+  font-weight: 200;
+  display: -webkit-inline-box;
+}
+
+.cookie {
+  background: url(http://www.pngall.com/wp-content/uploads/2016/07/Cookie-PNG-Clipart.png);
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  margin: 100px 80px;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+
+.ex1 {
+  position: absolute;
+  animation-timing-function: linear;
+  animation-name: sparkle;
+  animation-duration: 0.5s;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+  font-weight: 900;
+}
+
+@keyframes sparkle {
+  0% {
+  }
+  100% {
+    margin-top: -90px;
+  }
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#fcookie {
+  background: url(http://www.pngall.com/wp-content/uploads/2016/07/Cookie-PNG-Clipart.png);
+  width: 30px;
+  display: none;
+  height: 30px;
+  background-size: contain;
+  z-index: 1;
+  position: absolute;
+  border-radius: 100%;
+  transition: 0.2s;
+}
+
+.cookie:active {
+  width: 210px;
+  height: 210px;
+  cursor: pointer;
+  margin: 95px 75px;
+}
+
+.c-active {
+  width: 180px;
+  height: 180px;
+  cursor: pointer;
+  margin: 110px 90px;
+}
+
+#panel {
+  width: 60%;
+  height: 100%;
+  float: left;
+  z-index: 1000;
+  position: relative;
+}
+
+#tabs {
+  height: 440px;
+  margin: 30px;
+  background: #616161;
+}
+
+#tabs ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 10px;
+}
+#tabs li a {
+  margin: 0px 10px;
+  padding: 10px 0px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  color: white;
+  transition: 0.1s;
+}
+
+.tab-content {
+  padding: 0px 20px;
+  background: rgb(234, 234, 234);
+  max-height: 400px;
+  min-height: 400px;
+  overflow: auto;
+}
+
+.tab-content h2 {
+  font-family: "Open Sans", sans-serif;
+  color: #7b7b7b;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 1px solid #7b7b7b;
+  padding: 0px 0px 10px;
+  letter-spacing: 5px;
+}
+.tab-content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+}
+
+.uwrap {
+  margin: 20px 0px;
+}
+.inf {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 11px;
+  background: #d8d8d8;
+  padding: 8px;
+}
+
+.uwrap button {
+  padding: 10px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px 2px;
+  font-size: 10px;
+  background: #656565;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 400;
+  border: 0px;
+}
+
+.tab-content::-webkit-scrollbar {
+  width: 1em;
+}
+
+.tab-content::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.w-shop {
+  display: -webkit-inline-box;
+  margin: 10px 0px;
+}
+.s-item {
+  width: 50px;
+  height: 50px;
+  background: #616161;
+  border-radius: 100%;
+  margin: 0px 10px;
+}
+
+.gold {
+  background: linear-gradient(180deg, #000000 19%, #af8050 180%);
+}
+
+.diax {
+  background: linear-gradient(180deg, #000000 19%, #1e80c5 180%);
+}
+
+.epic {
+  background: linear-gradient(180deg, #000000 19%, #32a02b 180%);
+}
+
+#tabs-4 textarea {
+  resize: none;
+  padding: 10px;
+  margin: 10px 0px;
+  width: 400px;
+  font-size: 10px;
+}
+#tabs-4 input {
+  padding: 5px;
+  margin: 10px 0px 0px;
+  font-size: 10px;
+}

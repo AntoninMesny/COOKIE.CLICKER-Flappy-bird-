@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  background-image: url("https://wallpaperaccess.com/full/4622710.png");
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  text-align: center;
+  margin: 0;
+  background: cyan;
+  color: black;
+  border: 5px solid black;
+  border-radius: 12px;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+button:hover {
+  background: blue;
+  color: white;
+}
+
+#cookieimg {
+  margin-bottom: 80px;
+  margin-top: 60px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(13, 50, 137);
+  border-color: #9941b9;
+}
